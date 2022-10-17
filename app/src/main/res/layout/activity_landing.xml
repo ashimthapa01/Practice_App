@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainLandingConst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LandingActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/landingcard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="50dp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintHeight_percent="0.55"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/landing_image" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_maintxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/custom"
+            android:gravity="center"
+            android:text="@string/landing_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/landingcard" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_maintxt">
+
+            <Button
+                android:id="@+id/landingbtnsignup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_shape"
+                android:elevation="20dp"
+                android:fontFamily="@font/btn"
+                android:text="@string/landing_sign_up"
+                app:backgroundTint="@color/carmine" />
+
+            <Button
+                android:id="@+id/landingbtnsignin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_shape"
+                android:elevation="20dp"
+                android:fontFamily="@font/btn"
+                android:text="@string/landing_sign_in"
+                app:backgroundTint="@color/carmine"
+                app:layout_constraintTop_toBottomOf="@id/landingbtnsignup" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        layout="@layout/bottom_sheet_signup"
+        />
+    <include
+        layout="@layout/bottom_sheet_signin"
+        />
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

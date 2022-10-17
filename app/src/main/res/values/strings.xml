@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practice App</string>
+    <string name="landing_text">Best way to express yourself!!!</string>
+    <string name="landing_sign_up">SIGN UP</string>
+    <string name="landing_sign_in">SIGN IN</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Log In</string>
+</resources>
