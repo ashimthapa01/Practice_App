@@ -32,6 +32,7 @@ class DashActivity : AppCompatActivity() {
         var logoutbtn = findViewById<Button>(R.id.logoutbtn)
         logoutbtn.setOnClickListener(){
             edit.remove("full name")
+            edit.apply()
 
         }
         preferences = getSharedPreferences(LandingActivity.FILE_NAME, Context.MODE_PRIVATE)
