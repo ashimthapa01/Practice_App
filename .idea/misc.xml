@@ -7,14 +7,18 @@
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/bottom_left_curved_corners.xml" value="0.179" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/bottom_sheet_landing.xml" value="0.2115" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/button_shape.xml" value="0.2115" />
+        <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/circular_battery.xml" value="0.1" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/circular_profile.xml" value="0.33" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/close_button.xml" value="0.194" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/curved_corners.xml" value="0.179" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/curved_corners_grey.xml" value="0.179" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/curved_corners_stroke.xml" value="0.194" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/dash_image_background.xml" value="0.179" />
+        <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/ic_back.xml" value="0.1715" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.194" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/indicator_dot.xml" value="0.1" />
+        <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/progress_bar.xml" value="0.1715" />
+        <entry key="..\:/Work/PracticeApp/app/src/main/res/drawable/progress_circular.xml" value="0.1715" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/layout/activity_dash.xml" value="0.33" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/layout/activity_landing.xml" value="0.33" />
         <entry key="..\:/Work/PracticeApp/app/src/main/res/layout/bottom_sheet_signin.xml" value="0.28328611898017" />

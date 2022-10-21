@@ -14,13 +14,8 @@
         android:theme="@style/Theme.PracticeApp"
         tools:targetApi="31">
         <activity
+            android:theme="@style/Theme.PracticeApp"
             android:name=".DashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignInActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".LandingActivity"

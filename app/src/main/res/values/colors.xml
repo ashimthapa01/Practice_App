@@ -10,4 +10,7 @@
     <color name="carmine">#960018</color>
     <color name="grey">#ededed </color>
     <color name="grey1">#d3d3d3 </color>
+    <style name="progress">
+        <item name="colorAccent">@color/carmine</item>
+    </style>
 </resources>
