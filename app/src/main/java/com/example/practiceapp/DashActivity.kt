@@ -23,19 +23,26 @@ class DashActivity : AppCompatActivity() {
     lateinit var progressbar: ProgressBar
     var txtBatteryStatus: TextView? = null
     var back: ImageView? = null;
-    var edit = preferences.edit()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dash)
         val name1: TextView = findViewById(R.id.tv_name)
+
+
+        preferences = getSharedPreferences(LandingActivity.FILE_NAME, Context.MODE_PRIVATE)
+        var edit = preferences.edit()
         var logoutbtn = findViewById<Button>(R.id.logoutbtn)
         logoutbtn.setOnClickListener(){
             edit.remove("full name")
             edit.apply()
+            val intent = Intent(this, LandingActivity::class.java)
+            startActivity(intent)
+            finish()
+
 
         }
-        preferences = getSharedPreferences(LandingActivity.FILE_NAME, Context.MODE_PRIVATE)
         val name = preferences.getString("full name", "")
         name1.text = name
         progressbar = findViewById(R.id.progressbar)
